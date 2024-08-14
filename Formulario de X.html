@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario de Autoevaluación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            background-color: #c7e6a3;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #c7e6a3;
+        }
+        .center {
+            text-align: center;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CUESTIONARIO DE AUTOEVALUACIÓN</h1>
+    <p>(Cuestionario realizado por José Manuel Hernández, doctor en Psicología y profesor titular de Personalidad, Evaluación y Tratamiento Psicológico de la UAM y coordinador de la comisión de la ansiedad y el estrés en el ámbito educativo de la Sociedad Española para el Estudio de la Ansiedad y el Estrés)</p>
+    <p>Este cuestionario se centra en el periodo de examen y determina cuáles son las manifestaciones específicas que puedes tener. Debes responder usando una escala en la que:</p>
+    <ul>
+        <li>1 indica "Nunca me ocurre esto cuando tengo que realizar un examen"</li>
+        <li>2 indica "Casi nunca me ocurre esto cuando tengo que realizar un examen"</li>
+        <li>3 indica "Regularmente me ocurre esto cuando tengo que realizar un examen"</li>
+        <li>4 indica "Casi siempre me ocurre esto cuando tengo que realizar un examen"</li>
+        <li>5 indica "Siempre me ocurre esto cuando tengo que realizar un examen"</li>
+    </ul>
+
+    <form id="cuestionario">
+        <table>
+            <tr>
+                <th>Ante el examen</th>
+                <th class="center">1</th>
+                <th class="center">2</th>
+                <th class="center">3</th>
+                <th class="center">4</th>
+                <th class="center">5</th>
+            </tr>
+            <tr>
+                <td>1. Me preocupo</td>
+                <td class="center"><input type="radio" name="q1" value="1"></td>
+                <td class="center"><input type="radio" name="q1" value="2"></td>
+                <td class="center"><input type="radio" name="q1" value="3"></td>
+                <td class="center"><input type="radio" name="q1" value="4"></td>
+                <td class="center"><input type="radio" name="q1" value="5"></td>
+            </tr>
+            <tr>
+                <td>2. Me late muy rápido el corazón, me falta aire y la respiración es agitada</td>
+                <td class="center"><input type="radio" name="q2" value="1"></td>
+                <td class="center"><input type="radio" name="q2" value="2"></td>
+                <td class="center"><input type="radio" name="q2" value="3"></td>
+                <td class="center"><input type="radio" name="q2" value="4"></td>
+                <td class="center"><input type="radio" name="q2" value="5"></td>
+            </tr>
+            <tr>
+                <td>3. Realizo movimientos repetitivos con alguna parte de mi cuerpo, me quedo paralizado o mis movimientos son torpes</td>
+                <td class="center"><input type="radio" name="q3" value="1"></td>
+                <td class="center"><input type="radio" name="q3" value="2"></td>
+                <td class="center"><input type="radio" name="q3" value="3"></td>
+                <td class="center"><input type="radio" name="q3" value="4"></td>
+                <td class="center"><input type="radio" name="q3" value="5"></td>
+            </tr>
+            <tr>
+                <td>4. Siento molestias en el estómago</td>
+                <td class="center"><input type="radio" name="q4" value="1"></td>
+                <td class="center"><input type="radio" name="q4" value="2"></td>
+                <td class="center"><input type="radio" name="q4" value="3"></td>
+                <td class="center"><input type="radio" name="q4" value="4"></td>
+                <td class="center"><input type="radio" name="q4" value="5"></td>
+            </tr>
+            <tr>
+                <td>5. Fumo, como o bebo demasiado</td>
+                <td class="center"><input type="radio" name="q5" value="1"></td>
+                <td class="center"><input type="radio" name="q5" value="2"></td>
+                <td class="center"><input type="radio" name="q5" value="3"></td>
+                <td class="center"><input type="radio" name="q5" value="4"></td>
+                <td class="center"><input type="radio" name="q5" value="5"></td>
+            </tr>
+            <tr>
+                <td>6. Siento miedo</td>
+                <td class="center"><input type="radio" name="q6" value="1"></td>
+                <td class="center"><input type="radio" name="q6" value="2"></td>
+                <td class="center"><input type="radio" name="q6" value="3"></td>
+                <td class="center"><input type="radio" name="q6" value="4"></td>
+                <td class="center"><input type="radio" name="q6" value="5"></td>
+            </tr>
+            <tr>
+                <td>7. Tengo pensamiento o sentimientos negativos como "no lo haré bien" o "no me dará tiempo"</td>
+                <td class="center"><input type="radio" name="q7" value="1"></td>
+                <td class="center"><input type="radio" name="q7" value="2"></td>
+                <td class="center"><input type="radio" name="q7" value="3"></td>
+                <td class="center"><input type="radio" name="q7" value="4"></td>
+                <td class="center"><input type="radio" name="q7" value="5"></td>
+            </tr>
+            <tr>
+                <td>8. Me tiembla las manos o las piernas</td>
+                <td class="center"><input type="radio" name="q8" value="1"></td>
+                <td class="center"><input type="radio" name="q8" value="2"></td>
+                <td class="center"><input type="radio" name="q8" value="3"></td>
+                <td class="center"><input type="radio" name="q8" value="4"></td>
+                <td class="center"><input type="radio" name="q8" value="5"></td>
+            </tr>
+            <tr>
+                <td>9. Me cuesta expresarme verbalmente o, a veces, tartamudeo</td>
+                <td class="center"><input type="radio" name="q9" value="1"></td>
+                <td class="center"><input type="radio" name="q9" value="2"></td>
+                <td class="center"><input type="radio" name="q9" value="3"></td>
+                <td class="center"><input type="radio" name="q9" value="4"></td>
+                <td class="center"><input type="radio" name="q9" value="5"></td>
+            </tr>
+            <tr>
+                <td>10. Me siento inseguro de mí mismo</td>
+                <td class="center"><input type="radio" name="q10" value="1"></td>
+                <td class="center"><input type="radio" name="q10" value="2"></td>
+                <td class="center"><input type="radio" name="q10" value="3"></td>
+                <td class="center"><input type="radio" name="q10" value="4"></td>
+                <td class="center"><input type="radio" name="q10" value="5"></td>
+            </tr>
+            <tr>
+                <td>11. Se me seca la boca y tengo dificultades para tragar</td>
+                <td class="center"><input type="radio" name="q11" value="1"></td>
+                <td class="center"><input type="radio" name="q11" value="2"></td>
+                <td class="center"><input type="radio" name="q11" value="3"></td>
+                <td class="center"><input type="radio" name="q11" value="4"></td>
+                <td class="center"><input type="radio" name="q11" value="5"></td>
+            </tr>
+            <tr>
+                <td>12. Siento ganas de llorar</td>
+                <td class="center"><input type="radio" name="q12" value="1"></td>
+                <td class="center"><input type="radio" name="q12" value="2"></td>
+                <td class="center"><input type="radio" name="q12" value="3"></td>
+                <td class="center"><input type="radio" name="q12" value="4"></td>
+                <td class="center"><input type="radio" name="q12" value="5"></td>
+            </tr>
+        </table>
+        <button type="button" class="button" onclick="calcularResultados()">Calcular Resultados</button>
+    </form>
+
+    <h2>Resultados</h2>
+    <p id="resultados"></p>
+
+    <script>
+        function calcularResultados() {
+            const form = document.forms["cuestionario"];
+            
+            const q1 = parseInt(form["q1"].value) || 0;
+            const q2 = parseInt(form["q2"].value) || 0;
+            const q3 = parseInt(form["q3"].value) || 0;
+            const q4 = parseInt(form["q4"].value) || 0;
+            const q5 = parseInt(form["q5"].value) || 0;
+            const q6 = parseInt(form["q6"].value) || 0;
+            const q7 = parseInt(form["q7"].value) || 0;
+            const q8 = parseInt(form["q8"].value) || 0;
+            const q9 = parseInt(form["q9"].value) || 0;
+            const q10 = parseInt(form["q10"].value) || 0;
+            const q11 = parseInt(form["q11"].value) || 0;
+            const q12 = parseInt(form["q12"].value) || 0;
+
+            // Manifestación cognitiva: Preguntas 1, 4, 7, 10, 12
+            const cognitiva = (q1 + q4 + q7 + q10 + q12) / 5;
+
+            // Manifestación fisiológica: Preguntas 2, 5, 8, 11
+            const fisiologica = (q2 + q5 + q8 + q11) / 4;
+
+            // Manifestación motora: Preguntas 3, 6, 9
+            const motora = (q3 + q6 + q9) / 3;
+
+            let interpretacion = "";
+
+            function interpretarPuntaje(puntaje) {
+                if (puntaje <= 3) {
+                    return "no resulta preocupante. Es normal que una situación como la del examen pueda producir alguna cierta manifestación.";
+                } else if (puntaje > 3 && puntaje <= 4) {
+                    return "muestra que la situación de examen podría provocar manifestaciones que pueden interferir en tu rendimiento.";
+                } else {
+                    return "indica que la situación de examen podría provocar manifestaciones que probablemente interfieran en tu rendimiento.";
+                }
+            }
+
+            interpretacion += `<strong>Manifestación cognitiva:</strong> Tu puntuación es ${cognitiva.toFixed(2)}, lo que ${interpretarPuntaje(cognitiva)}<br>`;
+            interpretacion += `<strong>Manifestación fisiológica:</strong> Tu puntuación es ${fisiologica.toFixed(2)}, lo que ${interpretarPuntaje(fisiologica)}<br>`;
+            interpretacion += `<strong>Manifestación motora:</strong> Tu puntuación es ${motora.toFixed(2)}, lo que ${interpretarPuntaje(motora)}`;
+
+            document.getElementById("resultados").innerHTML = interpretacion;
+        }
+    </script>
+
+</body>
+</html>
